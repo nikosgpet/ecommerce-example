@@ -1,52 +1,37 @@
-# vue3
+# Rite de passage du padawan Front
 
-This template should help get you started developing with Vue 3 in Vite.
+## Préambule
 
-## Recommended IDE Setup
+L'objectif principal de ce test est de nous permettre d'évaluer votre coding style, votre rigueur et votre capacité à produire du beau code.
+En parlant de beauté, vous êtes totalement libre concernant l'UI/UX de l'application: vous pouvez utiliser le framework CSS de votre choix afin d'embellir votre oeuvre. La seule condition à respecter étant que __l'application doit être responsive__.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## VueJS
 
-## Type Support for `.vue` Imports in TS
+Une application VueJS a été installée au préalable afin de vous aider à commencer le test. Cependant, libre à vous de changer de framework.
+Vous pouvez lancer l'application via la commande `npm run dev`.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## JSON Server
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+Ce test utilise `json-server` pour simuler une api REST.
+https://github.com/typicode/json-server
+La db est stockée dans le fichier json `db.json` situé à la racine du projet.
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+Vous pouvez lancer l'api REST avec la commande `npm run server`.
 
-## Customize configuration
+## Les épreuves
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Épreuve 1
+Votre première épreuve consistera à afficher la vente déjà créée et ses lots dans l'application VueJS.
 
-## Project Setup
+### Épreuve 2
 
-```sh
-npm install
-```
+Votre application devra permettre de créer une vente avec des lots et de les persister dans le fichier `db.json`.
 
-### Compile and Hot-Reload for Development
+### Épreuve 3
 
-```sh
-npm run dev
-```
+Créer une nouvelle vue dans laquelle il sera possible de rechercher parmis les ventes et les lots avec un seul champ `input`.
+Cet unique champ de recherche sera capable de trouver des ventes et des lots, à vous de trouver un moyen de les distinguer dans les résultats.
 
-### Type-Check, Compile and Minify for Production
+### Bonus
 
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- Ajouter le konami code qui affiche un gif de votre choix
