@@ -1,10 +1,10 @@
 <template>
   <main>
-    <h2>Ventes en cours</h2>
-    <SaleGroup :sales="sales"/>
+    <h2 class="text-2xl font-bold tracking-tight text-gray-900">Ventes en cours</h2>
+    <SaleGroup :sales="sales" class="mt-6 mb-12"/>
 
-    <h2>Les plus récents</h2>
-    <ItemGroup :items="items"/>
+    <h2 class="text-2xl font-bold tracking-tight text-gray-900">Les plus récents</h2>
+    <ItemGroup :items="items" class="mt-6 mb-12"/>
   </main>
 </template>
 
