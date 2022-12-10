@@ -1,9 +1,23 @@
 {
   "sales": [
-    { "id": 1, "title": "Belle vente mobilière", "description": "Suite à successions : vente de beau mobilier, objets d'art, tableaux anciens et modernes, pendule en bronze doré ..." }
+    {
+      "id": 1,
+      "title": "Belle vente mobilière",
+      "description": "Suite à successions : vente de beau mobilier, objets d'art, tableaux anciens et modernes, pendule en bronze doré ..."
+    }
   ],
   "items": [
-    { "id": 1, "sale_id": 1, "description": "Petit cache pot en porcelaine tendre monogrammé sur les deux faces. Marque découronné ' Duc d'Angoulême' ?. Epoque XIXème. Dimensions : 8,5 X11,3 cm." },
-    { "id": 2, "sale_id": 1, "description": "Ecole Française fin XIXème 'E. De Varine Bohan','Portrait du chevalier du Haumel'. Huile sur toile signée en gravure sur la cadre et derrière 1896. Dimensions : 93 X 73 cm. Cadre style régence." }
+    {
+      "id": 1,
+      "sale_id": 1,
+      "description": "Petit cache pot en porcelaine tendre monogrammé sur les deux faces. Marque découronné ' Duc d'Angoulême' ?. Epoque XIXème. Dimensions : 8,5 X11,3 cm.",
+      "image": "https://thumbor.thumbor-indbupload.interencheres.com/UraEYqgF682RP2pSmlUSoTlEKBA=/2022/12/05/155601_554605474_b131bd709efe91921c31cd648667aa07"
+    },
+    {
+      "id": 2,
+      "sale_id": 1,
+      "description": "Ecole Française fin XIXème 'E. De Varine Bohan','Portrait du chevalier du Haumel'. Huile sur toile signée en gravure sur la cadre et derrière 1896. Dimensions : 93 X 73 cm. Cadre style régence.",
+      "image": "https://thumbor.thumbor-indbupload.interencheres.com/k8oNEA5wZGCbGclSsJOtLAV73is=/2022/11/13/214644_66538864_cd806b8ef3836bb131f96ec0970ed609"
+    }
   ]
 }
