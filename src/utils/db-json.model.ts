@@ -26,4 +26,14 @@
    * The search query to apply to the data.
    */
   query?: string;
-}
+
+  /**
+   * The parent entities to expand in the response.
+   */
+  expand?: string[];
+
+  /**
+   * The children entities to embed in the response.
+   */
+  embed?: string[];
+ }

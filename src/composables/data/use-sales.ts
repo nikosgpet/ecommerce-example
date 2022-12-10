@@ -4,13 +4,13 @@ import { parseServerOptions } from '@/utils/db-json.utils';
 import { useFetch } from '../use-fetch';
 
 /**
- * Fetches the items from the server.
+ * Fetches the sales from the server.
  *
  * @param options - The options for querying the server.
  * @param initialData - The initial data to use before the fetch is complete.
- * @returns A reference to the items from the server.
+ * @returns A reference to the sales from the server.
  */
-export function useItems(
+export function useSales(
   options: IServerOptions = {
     page: 1,
     limit: 10,
@@ -18,5 +18,5 @@ export function useItems(
   },
   initialData: any = {}
 ): Ref<any> {
-  return useFetch('/items' + parseServerOptions(options), initialData);
+  return useFetch('/sales' + parseServerOptions(options), initialData);
 }

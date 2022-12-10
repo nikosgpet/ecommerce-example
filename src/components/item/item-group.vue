@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-for="(item, index) in props.items" :key="index">
+    <div v-for="(item, index) in props.items" :key="item.id">
       <ItemCard :item="item" />
     </div>
   </div>
@@ -8,10 +8,10 @@
 
 <script setup lang="ts">
 import ItemCard from './item-card.vue';
-import type { Item } from './item.model';
+import type { IItem } from './item.model';
 
 interface IProps { 
-  items: Item[];
+  items: IItem[];
 }
 
 const props = withDefaults(defineProps<IProps>(), {})

@@ -1,7 +1,7 @@
 import type { IServerOptions } from './db-json.model';
 
 export function parseServerOptions(options: IServerOptions) {
-  const { filters, page, limit, sort, query } = options;
+  const { filters, page, limit, sort, query, embed, expand } = options;
 
   const queryList = [];
   if (query) {
@@ -22,6 +22,12 @@ export function parseServerOptions(options: IServerOptions) {
     queryList.push(
       ... Object.keys(sort).map(key => `_sort=${key}&_order=${sort[key]}`)
     );
+  }
+  if (embed && embed.length > 0) {
+    queryList.push(`_embed=${embed.join(',')}`);
+  }
+  if (expand && expand.length > 0) {
+    queryList.push(`_expand=${expand.join(',')}`);
   }
 
   return queryList.length > 0 ? '?' + queryList.join('&') : '';

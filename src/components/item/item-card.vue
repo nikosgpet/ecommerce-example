@@ -7,10 +7,10 @@
 </template>
 
 <script setup lang="ts">
-import type { Item } from './item.model';
+import type { IItem } from './item.model';
 
 interface IProps {
-  item: Item;
+  item: IItem;
 }
 
 const props = withDefaults(defineProps<IProps>(), {})

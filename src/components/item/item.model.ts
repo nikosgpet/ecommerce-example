@@ -1,7 +1,7 @@
 /**
  * Represents a single item for sale
  */
-export interface Item {
+export interface IItem {
   /**
    * The unique identifier of the item
    */
