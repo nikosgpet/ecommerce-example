@@ -1,37 +1,32 @@
-# Rite de passage du padawan Front
+# Ecommerce Project Sample
 
-## Préambule
+This repository contains a sample ecommerce application build with Vue 3, TailwindCSS and json-server 
+that simulates a REST API and persists data in the db.json file. 
 
-L'objectif principal de ce test est de nous permettre d'évaluer votre coding style, votre rigueur et votre capacité à produire du beau code.
-En parlant de beauté, vous êtes totalement libre concernant l'UI/UX de l'application: vous pouvez utiliser le framework CSS de votre choix afin d'embellir votre oeuvre. La seule condition à respecter étant que __l'application doit être responsive__.
+## Screenshot
 
-## VueJS
+![Ecommerce Project Demo](./public/demo.png)
 
-Une application VueJS a été installée au préalable afin de vous aider à commencer le test. Cependant, libre à vous de changer de framework.
-Vous pouvez lancer l'application via la commande `npm run dev`.
+## Getting Started
+To get started, clone this repository and install the dependencies using `npm`:
 
-## JSON Server
+```bash
+git clone https://github.com/nikosgpet/ecommerce-example
+cd front-padawan-rite-of-passage
+npm install
+```
 
-Ce test utilise `json-server` pour simuler une api REST.
-https://github.com/typicode/json-server
-La db est stockée dans le fichier json `db.json` situé à la racine du projet.
+Once the dependencies are installed, you can launch the VueJS application using the `npm run dev` command, 
+and you can launch the json-server API using the `npm run server` command.
 
-Vous pouvez lancer l'api REST avec la commande `npm run server`.
+## Features
+- The application displays current sales and items that are part of those sales
+- Users can create a sale with associated items and persist them in the db.json file.
+- A new view allows users to search among sales and lots using a single input field. The search box is able to find sales and lots and distinguish them in the results.
+- The Konami code has been added to the application, and it displays a funny gif when entered.
 
-## Les épreuves
+## Contributing
+To contribute to this repository, please fork it and submit a pull request with your changes.
 
-### Épreuve 1
-Votre première épreuve consistera à afficher la vente déjà créée et ses lots dans l'application VueJS.
-
-### Épreuve 2
-
-Votre application devra permettre de créer une vente avec des lots et de les persister dans le fichier `db.json`.
-
-### Épreuve 3
-
-Créer une nouvelle vue dans laquelle il sera possible de rechercher parmis les ventes et les lots avec un seul champ `input`.
-Cet unique champ de recherche sera capable de trouver des ventes et des lots, à vous de trouver un moyen de les distinguer dans les résultats.
-
-### Bonus
-
-- Ajouter le konami code qui affiche un gif de votre choix
+## License
+This project is licensed under the MIT License.
