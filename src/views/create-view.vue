@@ -38,7 +38,7 @@
       </div>
       
       <h2 class="text-base font-bold tracking-tight text-gray-900 mb-3">Lots à vendre</h2>
-      <div v-for="(item, index) in formData.items" :key="index" class="flex gap-4 items-start mb-1">
+      <div v-for="(item, index) in formData.items" :key="index" class="flex gap-0 sm:gap-4 items-start mb-1 flex-wrap sm:flex-nowrap">
         <button 
           type="button" 
           class="
@@ -53,8 +53,8 @@
             <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
           </svg>
         </button>
-        <h2 class="w-[100px] text-sm font-bold tracking-tight text-gray-900 mb-3">Lot {{ index + 1 }}</h2>
-        <div class="w-1/2 mb-3">
+        <h2 class="sm:w-[100px] text-sm font-bold tracking-tight text-gray-900 mb-3">Lot {{ index + 1 }}</h2>
+        <div class="w-full sm:w-1/2 mb-3">
           <label :for="`description-${index+1}`" class="block mb-2 text-sm font-medium text-gray-900">
             Description
           </label>
@@ -70,7 +70,7 @@
             required
           />
         </div>
-        <div class="w-1/2 mb-6">
+        <div class="w-full sm:w-1/2 mb-6">
           <label :for="`image-${index+1}`" class="block mb-2 text-sm font-medium text-gray-900">Titre</label>
           <input 
             v-model="item.image"

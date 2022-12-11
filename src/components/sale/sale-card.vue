@@ -1,5 +1,10 @@
 <template>
-  <article class="w-[300px] group cursor-pointer border border-1 border-gray-300 rounded-lg overflow-hidden">
+  <article 
+    class="
+      w-full sm:w-[48.5%] md:w-[32%] lg:w-[300px] max-w-[360px] mx-auto sm:mx-0
+      group cursor-pointer border border-1 border-gray-300 rounded-lg overflow-hidden
+    "
+  >
     <div class="flex gap-0.5 h-[160px]">
       <div class="overflow-hidden bg-black" :class="[has2ndImage ? 'w-1/2' : 'w-full']">
         <img 
@@ -18,7 +23,7 @@
     </div>
     <div class="py-4 px-3 group-hover:bg-gray-50/50 transition-colors">
       <h3 class="text-sm font-medium text-gray-900">{{ props.sale.title }}</h3>
-      <p class="mt-1 text-sm text-gray-500 line-clamp-2">{{ props.sale.description }}</p>
+      <p class="mt-1 text-sm text-gray-500 line-clamp-2 h-[40px]">{{ props.sale.description }}</p>
     </div>
   </article>
 </template>

@@ -1,18 +1,17 @@
 <template>
   <header>
     <div class="wrapper border-b border-gray-200">
-      <nav class="flex h-16 items-center">
+      <nav class="flex h-16 items-center px-4 lg:px-0 gap-2">
         <RouterLink 
           to="/" 
           class="
-            w-[10%] text-sm font-medium transition-colors duration-200 ease-out text-gray-700 hover:text-gray-800
+            sm:w-[20%] text-sm font-medium transition-colors duration-200 ease-out text-gray-700 hover:text-gray-800
           "
         >
           Home
         </RouterLink>
 
-        <div class="w-[10%]"></div>
-        <form class="w-[60%]" @submit.prevent="$router.push(`/search?q=${query}`)">
+        <form class="sm:w-[60%] grow sm:grow-0" @submit.prevent="$router.push(`/search?q=${query}`)">
           <div class="flex">
             <div class="relative w-full">
               <input 
@@ -42,8 +41,7 @@
           </div>
         </form>
 
-        <div class="w-[10%]"></div>
-        <div class="flex w-[10%]">
+        <div class="flex sm:w-[20%]">
           <div class="grow"></div>
           <button 
             class="

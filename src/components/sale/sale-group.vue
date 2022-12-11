@@ -1,8 +1,8 @@
 <template>
-  <div class="flex gap-3">
-    <div v-for="(sale, index) in props.sales" :key="sale.id">
+  <div class="flex gap-3 w-full flex-wrap">
+    <template v-for="(sale, index) in props.sales" :key="sale.id">
       <SaleCard :sale="sale" />
-    </div>
+    </template>
   </div>
 </template>
 
