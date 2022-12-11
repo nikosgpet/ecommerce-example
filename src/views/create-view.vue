@@ -38,14 +38,21 @@
       </div>
       
       <h2 class="text-base font-bold tracking-tight text-gray-900 mb-3">Lots à vendre</h2>
-      <div v-for="(item, index) in formData.items" :key="index" class="flex gap-0 sm:gap-4 items-start mb-1 flex-wrap sm:flex-nowrap">
+      <div 
+        v-for="(item, index) in formData.items" 
+        :key="index" 
+        class="flex gap-0 sm:gap-4 items-start mb-1 flex-wrap sm:flex-nowrap"
+      >
         <button 
           type="button" 
           class="
             text-white bg-gray-300 focus:ring-4 focus:outline-none 
             focus:ring-gray-200 font-medium rounded-full text-sm p-0.5 text-center inline-flex items-center mr-2
           "
-          :class="index === 0 && disableFirst ? 'opacity-50 cursor-not-allowed' : 'opacity-100 cursor-pointer hover:bg-gray-400'"
+          :class="[
+            index === 0 && disableFirst ? 
+              'opacity-50 cursor-not-allowed' : 'opacity-100 cursor-pointer hover:bg-gray-400'
+          ]"
           :disabled="index === 0 && disableFirst"
           @click="removeItem(index)"
         >
@@ -88,8 +95,8 @@
       <div class="flex gap-3 mt-3">
         <button 
           class="
-            text-gray-900 hover:bg-gray-100 border border-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 
-            font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center
+            text-gray-900 hover:bg-gray-100 border border-gray-700 focus:ring-4 focus:outline-none 
+            focus:ring-gray-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center
           "
           @click="formData.items.push({ saleId: null, description: '', image: '' })"
         >

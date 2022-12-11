@@ -1,7 +1,12 @@
 <template>
   <header>
     <div class="w-full wrapper">
-      <nav class="fixed top-0 w-full lg:max-w-[924px] 2xl:max-w-[1236px] z-[100] flex h-16 items-center px-4 lg:px-0 gap-2 bg-white border-b border-gray-200">
+      <nav 
+        class="
+          fixed top-0 w-full lg:max-w-[924px] 2xl:max-w-[1236px] z-[100] flex h-16 
+          items-center px-4 lg:px-0 gap-2 bg-white border-b border-gray-200
+        "
+      >
         <RouterLink 
           to="/" 
           class="

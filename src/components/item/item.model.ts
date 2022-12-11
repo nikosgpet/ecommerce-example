@@ -11,7 +11,7 @@ export interface IItem {
    * All items are sold as part of sale group
    * The unique identifier of the item's sale group
    */
-  sale_group: number;
+  saleId: number;
 
   /**
    * The description of the item

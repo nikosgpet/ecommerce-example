@@ -14,10 +14,16 @@
       </div>
       <div v-if="has2ndImage" class="flex flex-col w-1/2 gap-0.5">
         <div class="overflow-hidden bg-black" :class="[has3rdImage ? 'h-1/2' : 'h-full']">
-          <img :src="props.sale.items?.[1]?.image" class="object-cover w-full h-full hover:scale-105 transition-all group-hover:opacity-95 hover:!opacity-100" />
+          <img 
+            :src="props.sale.items?.[1]?.image" 
+            class="object-cover w-full h-full hover:scale-105 transition-all group-hover:opacity-95 hover:!opacity-100" 
+          />
         </div>
         <div v-if="has3rdImage" class="h-1/2 overflow-hidden bg-black">
-          <img :src="props.sale.items?.[2]?.image" class="object-cover w-full h-full hover:scale-105 transition-all group-hover:opacity-95 hover:!opacity-100" />
+          <img 
+            :src="props.sale.items?.[2]?.image" 
+            class="object-cover w-full h-full hover:scale-105 transition-all group-hover:opacity-95 hover:!opacity-100" 
+          />
         </div>
       </div>
     </div>

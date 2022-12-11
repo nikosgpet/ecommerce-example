@@ -6,7 +6,10 @@
     "
   >
     <div class="h-[160px] lg:h-[240px] overflow-hidden bg-black">
-      <img :src="props.item.image" class="object-cover h-full w-full group-hover:scale-[1.03] transition-transform  group-hover:opacity-95"/>
+      <img 
+        :src="props.item.image" 
+        class="object-cover h-full w-full group-hover:scale-[1.03] transition-transform group-hover:opacity-95"
+      />
     </div>
     <div class="py-4 px-3 group-hover:bg-gray-50/50 transition-colors">
       <h3 class="text-sm font-medium text-gray-900">Lot #{{ props.item.id }}</h3>
