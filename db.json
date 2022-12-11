@@ -4,6 +4,18 @@
       "id": 1,
       "title": "Belle vente mobilière",
       "description": "Suite à successions : vente de beau mobilier, objets d'art, tableaux anciens et modernes, pendule en bronze doré ..."
+    },
+    {
+      "title": "Belle Vente Cataloguée",
+      "description": "Belle Vente Cataloguée - A 10h du lot 1 à 163 puis reprise à 14h au lot 164.\n\nAprès successions et à divers amateurs.",
+      "items": [
+        {
+          "saleId": null,
+          "description": "Commode de maîtrise en placage de bois de rose et acajou (accidents au placage) - Epoque XIXème siècle - 32 x 37 x 18",
+          "image": "https://thumbor.thumbor-indbupload.interencheres.com/qFQfevvksHDOU7NvwmdbosRmbUA=/2022/12/05/160919_645159271_c01445e1d804900b9f158b28244221dc"
+        }
+      ],
+      "id": 3
     }
   ],
   "items": [
@@ -18,6 +30,12 @@
       "saleId": 1,
       "description": "Ecole Française fin XIXème 'E. De Varine Bohan','Portrait du chevalier du Haumel'. Huile sur toile signée en gravure sur la cadre et derrière 1896. Dimensions : 93 X 73 cm. Cadre style régence.",
       "image": "https://thumbor.thumbor-indbupload.interencheres.com/k8oNEA5wZGCbGclSsJOtLAV73is=/2022/11/13/214644_66538864_cd806b8ef3836bb131f96ec0970ed609"
+    },
+    {
+      "saleId": 3,
+      "description": "Commode de maîtrise en placage de bois de rose et acajou (accidents au placage) - Epoque XIXème siècle - 32 x 37 x 18",
+      "image": "https://thumbor.thumbor-indbupload.interencheres.com/qFQfevvksHDOU7NvwmdbosRmbUA=/2022/12/05/160919_645159271_c01445e1d804900b9f158b28244221dc",
+      "id": 3
     }
   ]
 }

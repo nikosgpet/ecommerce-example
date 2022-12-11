@@ -11,7 +11,7 @@ import { useFetch } from '../use-fetch';
  * @returns A reference to the items from the server.
  */
 export function useItems(
-  options: IServerOptions,
+  options: IServerOptions = {},
   initialData: any = {}
 ): Ref<any> {
   return useFetch('/items' + parseServerOptions({

@@ -33,13 +33,3 @@ const props = withDefaults(defineProps<IProps>(), {})
 const items = computed(() => useItems({ query: props.query }))
 const sales = computed(() => useSales({ query: props.query, embed : ['items'] }))
 </script>
-
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>

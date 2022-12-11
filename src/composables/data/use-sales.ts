@@ -11,7 +11,7 @@ import { useFetch } from '../use-fetch';
  * @returns A reference to the sales from the server.
  */
 export function useSales(
-  options: IServerOptions,
+  options: IServerOptions = {},
   initialData: any = {}
 ): Ref<any> {
   return useFetch('/sales' + parseServerOptions({
