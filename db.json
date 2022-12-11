@@ -8,14 +8,17 @@
     {
       "title": "Belle Vente Cataloguée",
       "description": "Belle Vente Cataloguée - A 10h du lot 1 à 163 puis reprise à 14h au lot 164.\n\nAprès successions et à divers amateurs.",
-      "items": [
-        {
-          "saleId": null,
-          "description": "Commode de maîtrise en placage de bois de rose et acajou (accidents au placage) - Epoque XIXème siècle - 32 x 37 x 18",
-          "image": "https://thumbor.thumbor-indbupload.interencheres.com/qFQfevvksHDOU7NvwmdbosRmbUA=/2022/12/05/160919_645159271_c01445e1d804900b9f158b28244221dc"
-        }
-      ],
       "id": 3
+    },
+    {
+      "title": "Bijoux et montres",
+      "description": "Bijoux anciens et modernes certains signés \nCartier, Boucheron, OJ Perrin etc.\n\nMontres bracelets et goussets\nRolex, Jaeger LeCoultre, Oméga, Breitling, Bvlgari, Cartier etc. ",
+      "id": 4
+    },
+    {
+      "title": "CERAMIQUES ANCIENNES",
+      "description": "Pescheteau-Badin, société de ventes volontaires de meubles aux enchères publiques est régie par la loi du 10 Juillet 2000.\n\nEstimations : Les estimations indiquées au catalogue sont données à titre indicatif.\n\nGaranties :Les dimensions, poids, couleurs de reproduction et informations sont fournis à titre indicatif. Les lots sont vendus dans l'état où ils se trouvent au moment précis de leur\n\nadjudication avec leurs possibles défauts ou imperfections ; L'absence d'indication d'une restauration d'usage, d'accidents, retouches ou de tout autre incident dans le catalogue,\n",
+      "id": 5
     }
   ],
   "items": [
@@ -36,6 +39,48 @@
       "description": "Commode de maîtrise en placage de bois de rose et acajou (accidents au placage) - Epoque XIXème siècle - 32 x 37 x 18",
       "image": "https://thumbor.thumbor-indbupload.interencheres.com/qFQfevvksHDOU7NvwmdbosRmbUA=/2022/12/05/160919_645159271_c01445e1d804900b9f158b28244221dc",
       "id": 3
+    },
+    {
+      "saleId": 4,
+      "description": "Bague en platine 850/1000ème ornée au centre d'un diamant rectangulaire à pans coupés (pierre à ressertir) TD 55 environ - Poids brut 5,5 g accompagnée d'un rapport d'analyse diamant de CGL n° 27619 d'octobre 2022 précisant : Masse : 3,91 carats - Couleur : H - Pureté : Si 1 - Fluorescence : \"weak\" - Dimensions : 9,73 x 8,64 x 5,13 mm\nExpert : Cabinet E et S PORTIER (visible uniquement sur RDV chez l'expert)",
+      "image": "https://thumbor.thumbor-indbupload.interencheres.com/RC1rHhP8xdhdy64OjwGiNhHEJ-A=/2022/12/05/161215_896569443_f1af17103ec0e4ab28581857febd4e60",
+      "id": 4
+    },
+    {
+      "saleId": 4,
+      "description": "Pendentif en or gris 750/1000ème et platine 850/1000ème ajouré entièrement serti de diamants taillés en rose, celui du centre plus important, mobile de forme \"poire\" et de taille ancienne (manque un diamant) - Poids approximatif calculé du diamant principal : 3 / 3,30 carats - H : 3,7 cm - Poids brut : 5,4 g\nExpert : Cabinet E et S PORTIER (visible uniquement sur RDV chez l'expert)",
+      "image": "https://thumbor.thumbor-indbupload.interencheres.com/26S-cGfpaWO1Jfbr0WE_Xb8ie_U=/2022/12/05/161210_413496814_d524a103685f496789b2db68ae4cec55",
+      "id": 5
+    },
+    {
+      "saleId": 4,
+      "description": "PENDENTIF SOUVENIR\novale en onyx, l’avant est orné d’un motif floral pavé de diamants taille rose. Le revers possède un compartiment qui peut s’ouvrir pour y glisser un souvenir. Monture or jaune 14K et argent.\nDimensions : 3.6 x 5.8 cm.\nPoids brut : 24.7 gr.",
+      "image": "https://thumbor.thumbor-indbupload.interencheres.com/txVc-2DJlJoeLc_uMAhxuLp3ECU=/2022/11/25/155400_732526292_b1b6e263df898b44d9aa6a69c6948412",
+      "id": 6
+    },
+    {
+      "saleId": 5,
+      "description": "DELFT - Plat rond à décor chinois fleuri en camaïeu bleu (égrenures) - Epoque fin XVIIIème siècle - Diam : 34,5",
+      "image": "https://thumbor.thumbor-indbupload.interencheres.com/duagVZjLCqumOrt11NKhhgZ-Kys=/2022/12/05/155825_731767953_285f845dd21ff1d4f90c06a8139b61c0",
+      "id": 7
+    },
+    {
+      "saleId": 5,
+      "description": "Pot Jacquot en faïence polychrome (égrenures) - Epoque XIXème siècle - H : 28",
+      "image": "https://thumbor.thumbor-indbupload.interencheres.com/5Dxf8EPOz7zXdmhXcNcFbv21b9M=/2022/11/30/145651_921826829_909070ae8ed8ed81b0ba56f3a55068ca",
+      "id": 8
+    },
+    {
+      "saleId": 5,
+      "description": "MOUSTIERS - Paire d'assiettes en faïence à décor de trophées militaires aux drapeaux et guirlandes feuillagées - Atelier FOUQUE (fêle à l'une et égrenure) - Epoque fin XVIIIème, début XIXème siècle - Diam : 25",
+      "image": "https://thumbor.thumbor-indbupload.interencheres.com/GcqcWAief1pvhZI2pAJsfK5mNOw=/2022/12/05/155828_400774443_ac6fd6f0e5af29d1ee76f96c91dc1a0e",
+      "id": 9
+    },
+    {
+      "saleId": 5,
+      "description": "LES ISLETTES - Assiette en faïence à décor \"au lapin\", bordure de l'aile peignée chantournée (égrenure) - Epoque début XIXème siècle - Diam : 22,5\n",
+      "image": "https://thumbor.thumbor-indbupload.interencheres.com/SE3Gg77cBnjJHujrEoko-P16Qk8=/2022/12/05/155831_956249095_53759f900005fcb529df0f400f8111a2",
+      "id": 10
     }
   ]
 }

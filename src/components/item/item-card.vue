@@ -1,5 +1,5 @@
 <template>
-  <article class="w-[220px] group cursor-pointer border border-1 border-gray-300 rounded-lg overflow-hidden">
+  <article class="w-[237px] group cursor-pointer border border-1 border-gray-300 rounded-lg overflow-hidden">
     <div class="h-[240px] overflow-hidden bg-black">
       <img :src="props.item.image" class="object-cover h-full w-full group-hover:scale-[1.03] transition-transform  group-hover:opacity-95"/>
     </div>

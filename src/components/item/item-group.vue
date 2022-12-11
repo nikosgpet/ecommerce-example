@@ -1,5 +1,5 @@
 <template>
-  <div class="flex gap-3">
+  <div class="flex gap-3 w-full flex-wrap">
     <div v-for="(item, index) in props.items" :key="item.id">
       <ItemCard :item="item" />
     </div>
