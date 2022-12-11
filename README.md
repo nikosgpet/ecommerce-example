@@ -12,7 +12,7 @@ To get started, clone this repository and install the dependencies using `npm`:
 
 ```bash
 git clone https://github.com/nikosgpet/ecommerce-example
-cd front-padawan-rite-of-passage
+cd ecommerce-example
 npm install
 ```
 
