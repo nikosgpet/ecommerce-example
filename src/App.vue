@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterView } from "vue-router";
 import Navbar from "./components/navbar.vue";
+import Konami from "./components/konami.vue";
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import Navbar from "./components/navbar.vue";
       <RouterView />
     </div>  
   </div>
+  <konami />
 </template>
 
 <style scoped>
