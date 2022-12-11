@@ -11,12 +11,13 @@ import { useFetch } from '../use-fetch';
  * @returns A reference to the items from the server.
  */
 export function useItems(
-  options: IServerOptions = {
-    page: 1,
-    limit: 10,
-    sort: { id: 'desc' },
-  },
+  options: IServerOptions,
   initialData: any = {}
 ): Ref<any> {
-  return useFetch('/items' + parseServerOptions(options), initialData);
+  return useFetch('/items' + parseServerOptions({
+    page: 1,
+    limit: 10,
+    sort: { id: 'desc', ...options?.sort },
+    ...options,
+  }), initialData);
 }
